@@ -1,0 +1,294 @@
+body, html{
+  background-color: black;
+  background-image: url("https://nanograv.org/sites/default/files/2022-09/BHM_StatementBanner.png");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;
+}
+
+#body1{
+    background-image: url("https://wallpapers.com/images/hd/big-l-harlem-s-finest-gthwksaojixhpb0e.jpg");
+    background-size: cover;
+}
+.body2{
+    background-color: orange;
+    background-image: url("https://www.princeton.edu/sites/default/files/styles/half_2x/public/images/2021/02/iStock-1296150964(1).jpg?itok=OtxZ1T8O");
+    height: 100%x
+}
+p{
+    font-family: cursive;
+}
+
+.header{
+border: 10px solid yellow;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color: #70311B;
+height: 100px;
+padding: 10x;
+margin: 20px;
+transition: top 0.3s ease-in-out;
+position: relative;
+z-index: 1000;
+}
+
+.nextbutton{
+    width: 200px;
+    height: 200px;
+    
+}
+.webtitle{
+   
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive, Times, serif; font-style: italic;
+    color: white;
+}
+.container1{
+    
+    border-color:black;
+    border-radius: 5px;
+    border-width: 5px;
+    padding-left: 10px;
+    margin-left: 10px;;
+    padding-right: 1-px;
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.himg{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+.maincontainer{
+    
+    background-color: #9c480f;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    
+
+}
+
+
+.mainimg{
+   height: 300px;
+   width: 400px;
+     border: 5px solid black;
+    margin: 20px;
+    display: block;
+    background-color: white;
+}
+
+.textbox{
+    background-color: #e9bc9e;
+    border: 10px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 
+    padding: 10px;
+    margin: 20px;
+}
+
+.text1{
+    padding: 10px;
+    font-family: cursive, Times, serif; font-style: italic;
+    color: black;
+}
+
+.footer{
+    background-color: #bc7444;
+    color: white;
+    font-family: cursive, Times, serif; font-style: italic;
+}
+
+.maincontainer2{
+    background-color: #bc7444;
+    border: 10px solid green;
+    border-radius: 5pc;
+    height:max-content;
+    width: max-content;
+    margin: 30px;
+    display: flex;
+    
+}
+.submaincontainer2{
+    display:flex;
+    flex-direction: row;
+    margin: 30px;
+
+}
+
+.jamesimg{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.jamesintro{
+    font-family: cursive, Times, serif; font-style: italic;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.jamesinfo{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.boximg{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.box{
+    background-color: antiquewhite;
+    border: 5px solid green;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 
+    padding: 10px;
+    margin: 20px;
+    display: block;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  .cover{
+    display: flex;
+    flex-direction: column;
+  }
+
+.coverheader{
+    height:max-content;
+    width: fit-content;
+    background-color: #70311B;
+    border: 10px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+    margin: 30px;
+    
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    
+}
+
+
+#coverimg {
+    width: 300px;
+    height: 260px;
+    border: 10px solid green;
+    border-radius: 5px;
+    
+}
+
+#htitle {
+    font-size: 90px;
+    font-weight: bold;
+    border: 10px solid green;
+    border-radius: 10px;
+    margin-right: 50px;
+    padding: 30px;
+    background-color: #bc7444;
+
+}
+
+.maincontent{
+    margin: 40px;
+display: flex;
+background-color: #70311B;
+border: 10px solid black;
+border-radius: 10px;
+}
+
+.maincontextbox{
+
+    background-color: slategray;
+   
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    
+    
+    
+}
+
+#quoteheader{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 20px 20px 20px;
+}
+
+#quotetext {
+    padding: 0px 20px 20px 20px;
+    flex-wrap: wrap;
+
+}
+
+
+#subheader {
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#gobutton {
+   height: 80px;
+   width: 80px;
+   padding: 20px;
+   justify-self: stretch;
+}
+
+.maincontextbox2 {
+    display: flex;
+    justify-content: center;
+}
+
+.artwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.artworkbox{
+    display: flex;
+    margin: 0px 0px 20px 20px;
+}
+
+.text2{
+    padding: 10px;
+    font-family: cursive, Times, serif; font-style: italic;
+    color: black;
+    font-size: 8px;
+
+}
